@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">CIM-NXT</string>
+
+    <string name="country_prompt">Choose a country</string>
+
+    <string-array name="linea_arrays">
+        <item>Brillo(0-10)</item>
+        <item>Brillo(11-20)</item>
+        <item>Brillo(21-30)</item>
+        <item>Brillo(31-40)</item>
+        <item>Brillo(41-50)</item>
+        <item>Brillo(51-60)</item>
+        <item>Brillo(61-70)</item>
+        <item>Brillo(71-80)</item>
+        <item>Brillo(81-90)</item>
+        <item>Brillo(91-100)</item>
+    </string-array>
+
+    <string-array name="fuente_arrays">
+        <item>Brillo(0-10)</item>
+        <item>Brillo(11-20)</item>
+        <item>Brillo(21-30)</item>
+        <item>Brillo(31-40)</item>
+        <item>Brillo(41-50)</item>
+        <item>Brillo(51-60)</item>
+        <item>Brillo(61-70)</item>
+        <item>Brillo(71-80)</item>
+        <item>Brillo(81-90)</item>
+        <item>Brillo(91-100)</item>
+    </string-array>
+
+    <string name="brillo_linea">Brillo de Linea</string>
+    <string name="brillo_alrededor">Brillo alrededor de linea</string>
+
+</resources>

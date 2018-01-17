@@ -1,0 +1,239 @@
+{
+  "project_info": {
+    "project_number": "408800503068",
+    "firebase_url": "https://fir-nxt-cbc89.firebaseio.com",
+    "project_id": "fir-nxt-cbc89",
+    "storage_bucket": "fir-nxt-cbc89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408800503068:android:0b3fde420aed2ffe",
+        "android_client_info": {
+          "package_name": "com.example.cesar.pruebacolor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408800503068-0ji9hote9r3va8ilvj030bicb7bshult.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cesar.pruebacolor",
+            "certificate_hash": "7b57fc7048a397619c52ce468d3d3aeaff66db6a"
+          }
+        },
+        {
+          "client_id": "408800503068-5uebgusl9u1i51fkhumc69e662hsg7ip.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cesar.pruebacolor",
+            "certificate_hash": "b9ffe9dd4128ceb775a6bd6864d2dfb5785d540f"
+          }
+        },
+        {
+          "client_id": "408800503068-qg19tra2vi582f2femt3mmc86sgoajk0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi1SKc7WRgLXQgXw7OI84Rwjjw4HB0z0k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408800503068-qg19tra2vi582f2femt3mmc86sgoajk0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408800503068:android:8087a53154051cb5",
+        "android_client_info": {
+          "package_name": "com.example.cesar.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408800503068-kl7sv3qhpfesou3dl2ejm08t1e40j7sf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cesar.firebase",
+            "certificate_hash": "b9ffe9dd4128ceb775a6bd6864d2dfb5785d540f"
+          }
+        },
+        {
+          "client_id": "408800503068-qg19tra2vi582f2femt3mmc86sgoajk0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi1SKc7WRgLXQgXw7OI84Rwjjw4HB0z0k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408800503068-qg19tra2vi582f2femt3mmc86sgoajk0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408800503068:android:29f7999d44acef40",
+        "android_client_info": {
+          "package_name": "com.example.diego.firebase_nxt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408800503068-jmg1fi9qh2ma2ha11gf5sjo6bkgv7f94.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.diego.firebase_nxt",
+            "certificate_hash": "ca1d019ce4040800e707fa7f9b8fcff31d634da9"
+          }
+        },
+        {
+          "client_id": "408800503068-qg19tra2vi582f2femt3mmc86sgoajk0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi1SKc7WRgLXQgXw7OI84Rwjjw4HB0z0k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408800503068-qg19tra2vi582f2femt3mmc86sgoajk0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408800503068:android:e7b659db12e83a5b",
+        "android_client_info": {
+          "package_name": "abaqueda.cl.cim_nxt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408800503068-ujgl07fjlsduion6oorufhvmgrlcd4e6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "abaqueda.cl.cim_nxt",
+            "certificate_hash": "5b7de53fc99acd7de695a62fefa6cfdc2fe8a8c3"
+          }
+        },
+        {
+          "client_id": "408800503068-qg19tra2vi582f2femt3mmc86sgoajk0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi1SKc7WRgLXQgXw7OI84Rwjjw4HB0z0k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408800503068-qg19tra2vi582f2femt3mmc86sgoajk0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408800503068:android:5955c32f00a475cc",
+        "android_client_info": {
+          "package_name": "com.example.yerko.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408800503068-i8u3k4oftq7bukougdvlfkhpeqbo07t2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yerko.myapplication",
+            "certificate_hash": "5b7de53fc99acd7de695a62fefa6cfdc2fe8a8c3"
+          }
+        },
+        {
+          "client_id": "408800503068-qg19tra2vi582f2femt3mmc86sgoajk0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi1SKc7WRgLXQgXw7OI84Rwjjw4HB0z0k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408800503068-qg19tra2vi582f2femt3mmc86sgoajk0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
