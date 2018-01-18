@@ -6,325 +6,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".NXT">
 
-    <LinearLayout
-        android:id="@+id/menuLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:gravity="center_horizontal"
-        android:measureWithLargestChild="false"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/sLink"
-            style="@style/Widget.AppCompat.Button.Small"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/sLink"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_toLeftOf="@+id/button12"
-            android:layout_toStartOf="@+id/button12"
-            android:elevation="0dp"
-            android:text="Link" />
-
-        <Button
-            android:id="@+id/sMotores"
-            style="@style/Widget.AppCompat.Button.Small"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:text="  Motor  " />
-
-        <Button
-            android:id="@+id/sSensores"
-            style="@style/Widget.AppCompat.Button.Small"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/sensor2"
-            android:layout_alignParentTop="true"
-            android:layout_alignRight="@+id/sensor2"
-            android:layout_toEndOf="@+id/button12"
-            android:layout_toRightOf="@+id/button12"
-            android:text="Sensor" />
-
-        <Button
-            android:id="@+id/Ejecucion"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:text="Execute" />
-
-
-    </LinearLayout>
-
-    <RelativeLayout
-
-        android:id="@+id/linkLayout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <TextView
-            android:id="@+id/tituloLink"
-            android:layout_width="404dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/menuLayout"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="70dp"
-            android:background="@color/accent_material_light"
-            android:gravity="center_horizontal"
-            android:text="Conectar"
-            android:textColor="@color/background_floating_material_light"
-            android:textSize="35sp" />
-
-
-        <ToggleButton
-            android:id="@+id/bluetooth"
-            android:layout_width="130dp"
-            android:layout_height="120dp"
-            android:layout_alignLeft="@+id/colorRobot"
-            android:layout_alignStart="@+id/colorRobot"
-            android:layout_below="@+id/etiquetacolor"
-            android:layout_marginTop="19dp"
-            android:background="@color/accent_material_light"
-            android:checked="false"
-            android:text="BT"
-            android:textAllCaps="true"
-            android:textAppearance="@style/TextAppearance.AppCompat"
-            android:textColor="@android:color/background_light"
-            android:textOff="Conectar"
-            android:textOn="Desconectar"
-            android:textStyle="bold" />
-
-        <ToggleButton
-            android:id="@+id/habilitar"
-            android:layout_width="130dp"
-            android:layout_height="120dp"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignTop="@+id/bluetooth"
-            android:layout_marginEnd="21dp"
-            android:layout_marginRight="21dp"
-            android:background="@color/accent_material_light"
-            android:checked="false"
-            android:text="Habilitar/Deshabilitar"
-            android:textColor="@android:color/background_light"
-            android:textOff="Deshabilitar sensores"
-            android:textOn="Habilitar sensores" />
-
-        <TextView
-            android:id="@+id/etiquetacolor"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/tituloLink"
-            android:background="@color/accent_material_dark"
-            android:text="color"
-            android:textAlignment="center"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <ToggleButton
-            android:id="@+id/iniciarcolor"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/habilitar"
-            android:layout_alignLeft="@+id/habilitar"
-            android:layout_alignParentBottom="true"
-            android:layout_alignRight="@+id/habilitar"
-            android:layout_alignStart="@+id/habilitar"
-            android:layout_marginBottom="28dp"
-            android:background="@color/accent_material_dark"
-            android:text="Modo Automatico Activado/Desactivado"
-            android:textColor="?attr/colorAccent"
-            android:textOff="Modo Automatico Desactivado"
-            android:textOn="Modo Automatico Activado"
-            android:textSize="12sp"
-            android:textStyle="bold" />
-
-        <Button
-            android:id="@+id/buttonlogout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/iniciarcolor"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginBottom="28dp"
-            android:background="@android:color/holo_red_dark"
-            android:text="Salir"
-            android:textColor="@color/primary_text_disabled_material_dark"
-            android:visibility="invisible" />
-
-        <TextView
-            android:id="@+id/texto"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/bluetooth"
-            android:layout_marginTop="12dp"
-            android:background="@color/accent_material_light"
-            android:text="Rastreo"
-            android:textAlignment="center"
-            android:textAllCaps="true"
-            android:textColor="@color/bright_foreground_inverse_material_light"
-            android:textStyle="bold" />
-
-        <Button
-            android:id="@+id/rastrear"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/datoObjetivox"
-            android:layout_alignLeft="@+id/colorObjetivo"
-            android:layout_alignRight="@+id/datoObjetivox"
-            android:layout_alignStart="@+id/colorObjetivo"
-            android:layout_alignTop="@+id/iniciarcolor"
-            android:background="@color/accent_material_light"
-            android:text="Rastreo"
-            android:textColor="@android:color/background_light" />
-
-        <Button
-            android:id="@+id/detener"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/datoObjetivox"
-            android:layout_alignLeft="@+id/colorObjetivo"
-            android:layout_alignRight="@+id/datoObjetivox"
-            android:layout_alignStart="@+id/colorObjetivo"
-            android:layout_alignTop="@+id/iniciarcolor"
-            android:background="@android:color/holo_red_dark"
-            android:text="Detener"
-            android:textColor="@android:color/background_light"
-            android:visibility="invisible" />
-
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/texto"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="12dp"
-            android:text="Datos en Firebase"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/colorRobot"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/textView6"
-            android:layout_marginLeft="22dp"
-            android:layout_marginStart="22dp"
-            android:text="color" />
-
-        <TextView
-            android:id="@+id/colorObjetivo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/colorRobot"
-            android:layout_alignStart="@+id/colorRobot"
-            android:layout_below="@+id/colorRobot"
-            android:text="Negro" />
-
-        <TextView
-            android:id="@+id/datoColorx"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/colorObjetivo"
-            android:layout_alignEnd="@+id/bluetooth"
-            android:layout_alignRight="@+id/bluetooth"
-            android:text="0" />
-
-        <TextView
-            android:id="@+id/datoObjetivox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/datoColorx"
-            android:layout_alignStart="@+id/datoColorx"
-            android:layout_below="@+id/datoColorx"
-            android:text="0" />
-
-        <TextView
-            android:id="@+id/datoColory"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/datoObjetivoy"
-            android:layout_alignStart="@+id/datoObjetivoy"
-            android:layout_below="@+id/textView6"
-            android:text="0" />
-
-        <TextView
-            android:id="@+id/datoObjetivoy"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/datoColory"
-            android:layout_toLeftOf="@+id/buttonlogout"
-            android:layout_toStartOf="@+id/buttonlogout"
-            android:text="0" />
-
-        <TextView
-            android:id="@+id/azulx"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/datoColorx"
-            android:layout_alignStart="@+id/datoColorx"
-            android:layout_alignTop="@+id/datoColorx"
-            android:text="0" />
-
-        <TextView
-            android:id="@+id/azuly"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/datoColory"
-            android:layout_alignBottom="@+id/datoColory"
-            android:layout_alignLeft="@+id/datoColory"
-            android:layout_alignStart="@+id/datoColory"
-            android:text="0" />
-
-        <TextView
-            android:id="@+id/verdex"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/datoObjetivox"
-            android:layout_alignLeft="@+id/datoColorx"
-            android:layout_alignStart="@+id/datoColorx"
-            android:text="0" />
-
-        <TextView
-            android:id="@+id/verdey"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/datoColory"
-            android:layout_alignBottom="@+id/datoColory"
-            android:layout_alignLeft="@+id/datoColory"
-            android:layout_alignStart="@+id/datoColory"
-            android:text="0" />
-
-        <TextView
-            android:id="@+id/datos"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/iniciarcolor"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginBottom="17dp"
-            android:text="TextView"
-            android:textAlignment="center" />
-
-
-    </RelativeLayout>
-
     <RelativeLayout
         android:id="@+id/sensorLayout"
         android:layout_width="match_parent"
@@ -763,6 +444,337 @@
                 android:layout_alignParentTop="true"
                 android:text="3" />
         </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/menuLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal"
+        android:measureWithLargestChild="false"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sLink"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sLink"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/button12"
+            android:layout_toStartOf="@+id/button12"
+            android:elevation="0dp"
+            android:text="Link" />
+
+        <Button
+            android:id="@+id/sMotores"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="  Motor  " />
+
+        <Button
+            android:id="@+id/sSensores"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/sensor2"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/sensor2"
+            android:layout_toEndOf="@+id/button12"
+            android:layout_toRightOf="@+id/button12"
+            android:text="Sensor" />
+
+        <Button
+            android:id="@+id/Ejecucion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Execute" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+
+        android:id="@+id/linkLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tituloLink"
+            android:layout_width="404dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/menuLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:background="@color/accent_material_light"
+            android:gravity="center_horizontal"
+            android:text="Conectar"
+            android:textColor="@color/background_floating_material_light"
+            android:textSize="35sp" />
+
+
+        <ToggleButton
+            android:id="@+id/bluetooth"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_alignLeft="@+id/colorRobot"
+            android:layout_alignStart="@+id/colorRobot"
+            android:layout_below="@+id/etiquetacolor"
+            android:layout_marginTop="19dp"
+            android:background="@color/accent_material_light"
+            android:checked="false"
+            android:text="BT"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/background_light"
+            android:textOff="Conectar"
+            android:textOn="Desconectar"
+            android:textStyle="bold" />
+
+        <ToggleButton
+            android:id="@+id/habilitar"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/bluetooth"
+            android:layout_marginEnd="21dp"
+            android:layout_marginRight="21dp"
+            android:background="@color/accent_material_light"
+            android:checked="false"
+            android:text="Habilitar/Deshabilitar"
+            android:textColor="@android:color/background_light"
+            android:textOff="Deshabilitar sensores"
+            android:textOn="Habilitar sensores" />
+
+        <TextView
+            android:id="@+id/etiquetacolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tituloLink"
+            android:background="@color/accent_material_dark"
+            android:text="color"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ToggleButton
+            android:id="@+id/iniciarcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/habilitar"
+            android:layout_alignLeft="@+id/habilitar"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/habilitar"
+            android:layout_alignStart="@+id/habilitar"
+            android:layout_marginBottom="28dp"
+            android:background="@color/accent_material_dark"
+            android:text="Modo Automatico Activado/Desactivado"
+            android:textColor="?attr/colorAccent"
+            android:textOff="Modo Automatico Desactivado"
+            android:textOn="Modo Automatico Activado"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonlogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/iniciarcolor"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="28dp"
+            android:background="@android:color/holo_red_dark"
+            android:text="Salir"
+            android:textColor="@color/primary_text_disabled_material_dark"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/texto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/bluetooth"
+            android:layout_marginTop="12dp"
+            android:background="@color/accent_material_light"
+            android:text="Rastreo"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/bright_foreground_inverse_material_light"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/rastrear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/datoObjetivox"
+            android:layout_alignLeft="@+id/colorObjetivo"
+            android:layout_alignRight="@+id/datoObjetivox"
+            android:layout_alignStart="@+id/colorObjetivo"
+            android:layout_alignTop="@+id/iniciarcolor"
+            android:background="@color/accent_material_light"
+            android:text="Rastreo"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/detener"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/datoObjetivox"
+            android:layout_alignLeft="@+id/colorObjetivo"
+            android:layout_alignRight="@+id/datoObjetivox"
+            android:layout_alignStart="@+id/colorObjetivo"
+            android:layout_alignTop="@+id/iniciarcolor"
+            android:background="@android:color/holo_red_dark"
+            android:text="Detener"
+            android:textColor="@android:color/background_light"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/texto"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:text="Datos en Firebase"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/colorRobot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView6"
+            android:layout_marginLeft="22dp"
+            android:layout_marginStart="22dp"
+            android:text="color" />
+
+        <TextView
+            android:id="@+id/colorObjetivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/colorRobot"
+            android:layout_alignStart="@+id/colorRobot"
+            android:layout_below="@+id/colorRobot"
+            android:text="Negro" />
+
+        <TextView
+            android:id="@+id/datoColorx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/colorObjetivo"
+            android:layout_alignEnd="@+id/bluetooth"
+            android:layout_alignRight="@+id/bluetooth"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/datoObjetivox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/datoColorx"
+            android:layout_alignStart="@+id/datoColorx"
+            android:layout_below="@+id/datoColorx"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/datoColory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/datoObjetivoy"
+            android:layout_alignStart="@+id/datoObjetivoy"
+            android:layout_below="@+id/textView6"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/datoObjetivoy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/datoColory"
+            android:layout_toLeftOf="@+id/buttonlogout"
+            android:layout_toStartOf="@+id/buttonlogout"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/azulx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/datoColorx"
+            android:layout_alignStart="@+id/datoColorx"
+            android:layout_alignTop="@+id/datoColorx"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/azuly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/datoColory"
+            android:layout_alignBottom="@+id/datoColory"
+            android:layout_alignLeft="@+id/datoColory"
+            android:layout_alignStart="@+id/datoColory"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/verdex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/datoObjetivox"
+            android:layout_alignLeft="@+id/datoColorx"
+            android:layout_alignStart="@+id/datoColorx"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/verdey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/datoColory"
+            android:layout_alignBottom="@+id/datoColory"
+            android:layout_alignLeft="@+id/datoColory"
+            android:layout_alignStart="@+id/datoColory"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/datos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/iniciarcolor"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="17dp"
+            android:text="TextView"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/movimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/rastrear"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
 
     </RelativeLayout>
 
